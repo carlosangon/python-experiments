@@ -36,3 +36,16 @@ print(insertion_sort(A), "sorted arr")
 print(insertion_sort_while(A), "sorted arr while")
 print(insertion_sort__refactored(A), "sorted arr refactor")
 
+def is_divisible(A):
+    for i in range(1, len(A)):
+        if A[i] == 9 :
+            num = A[i] - 1
+            return num, "TEST"
+
+print(is_divisible(A), "divisible")
+
+str = "level"
+str_2 = "carlos"
+
+def is_palindrom(str_2):
+    
